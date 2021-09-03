@@ -40,7 +40,7 @@ const UserProfileBox = props => {
             >
                 Cálculo de Medidas
             </Typography>
-            <Typography variant="body2">Holi</Typography>
+
         </Box>
     );
 };

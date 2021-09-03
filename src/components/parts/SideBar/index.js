@@ -16,15 +16,17 @@ import SidebarNav from '../../elements/SidebarNav';
 
 const pages = [
   {
-    href: '/form',
-    icon: <CPUIcon />,
-    title: 'Prueba el modelo'
-  },
-  {
     href: '/instructions',
     icon: <Book />,
     title: 'Instrucciones'
   },
+  
+  {
+    href: '/form',
+    icon: <CPUIcon />,
+    title: 'Prueba el modelo'
+  },
+ 
   {
     href: '/aboutus',
     icon: <ListIcon />,
