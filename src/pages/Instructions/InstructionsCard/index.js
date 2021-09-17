@@ -1,9 +1,8 @@
-import React, { useRef } from "react";
-import { makeStyles, Button, Box, Grow } from "@material-ui/core";
+import React from "react";
+import { makeStyles, Grow } from "@material-ui/core";
 import Card from "@material-ui/core/Card";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
-import { CardActions } from "@material-ui/core";
 import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
 

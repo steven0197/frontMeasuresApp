@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { makeStyles, Grid, Divider , Grow} from "@material-ui/core";
+import React from "react";
+import { makeStyles, Grid, Grow} from "@material-ui/core";
 import InstructionsCard from "./InstructionsCard";
 import imageFront from "../../assets/images/InstruccionesFrente.jpeg";
 import imageSide from "../../assets/images/InstruccionesLado.jpeg";
@@ -31,9 +31,7 @@ const useStyles = makeStyles((theme) => ({
   media: {
     paddingTop: "20%",
   },
-  content: {
-    textAlign: "left",
-  },
+
 
   heading: {
     fontWeight: "bold",
@@ -53,9 +51,7 @@ const useStyles = makeStyles((theme) => ({
   content: {
     textAlign: "left",
   },
-  media: {
-    paddingTop: "150%",
-  },
+
 }));
 
 function Instructions() {

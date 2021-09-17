@@ -40,7 +40,7 @@ const useStyles = makeStyles({
 
 export default function AboutUsCard({ user }) {
   const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
+
 
   return (
     <Grow in={true} timeout={700}>
@@ -65,7 +65,7 @@ export default function AboutUsCard({ user }) {
       </CardContent>
       <CardActions>
         <div className={classes.buttonDiv}>
-          <a href={user.linkdin} target="_blank">
+          <a href={user.linkdin} target="_blank" rel="noreferrer">
             <Button variant="outlined" size="small">
               Enlace a Linkdin
             </Button>
